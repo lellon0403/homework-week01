@@ -4,8 +4,8 @@ void main() {
   //reduce () 함수와 마찬가지로 각 요소를 순회하며 실행됩니다.
   final allMembers = blackPinkList.fold<int>(
     0,
-    (value, element) => vlaue + element.length,
+    (value, element) => value + element.length,
   );
 
-  print(allMemvers);
+  print(allMembers);
 }
