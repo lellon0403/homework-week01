@@ -6,5 +6,5 @@ void main() {
   };
 
   print(dictionary.keys);
-  print(dictionary.vlaues);
+  print(dictionary.values);
 }
