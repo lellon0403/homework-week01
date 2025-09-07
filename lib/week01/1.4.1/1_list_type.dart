@@ -3,6 +3,11 @@ void main() {
 
   print(blackPinkList);
 
-  print(plackPinkList[0]);
-  print()
+  print(blackPinkList[0]);
+  print(blackPinkList[3]);
+
+  print(blackPinkList.length);
+
+  blackPinkList[3] = '코드팩토리'; // 3번 인덱스 값 변경
+  print(blackPinkList);
 }
