@@ -20,5 +20,18 @@ class GirlGroup implements Idol {
 
   GirlGroup(this.name, this.membersCount);
 
-  void sayNmae() {}
+  void sayNmae() {
+    print('저는 여자 아이돌 ${this.name}입니다.');
+  }
+
+  void sayMembersCount() {
+    print('$this.name} 멤버는 ${this.membersCount}명입니다.');
+  }
+}
+
+void main() {
+  GirlGroup blackPink = GirlGroup('블랙핑크', 4);
+
+  blackPink.sayName();
+  blackPink.sayMembersCount();
 }
