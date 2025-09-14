@@ -23,4 +23,14 @@ class BoyGroup extends Idol() {
     int membersCount,) : super(// super는 부모 클래스를 지칭합니다.
     name,membersCount,
     );
+
+  //상속받지 않은 기능
+  void sayMale() {
+    print('저는 남자 아이돌입니다.');
+  }
+}
+
+void main() {
+
+  BoyGroup bts = BoyGroup('BTS',7);
 }
