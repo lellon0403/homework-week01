@@ -7,3 +7,7 @@ void add(int x, int y) {
 void calculate(int x, int y, Operation oper) {
   oper(x, y);
 }
+
+void main() {
+  calculate(1, 2, add);
+}
