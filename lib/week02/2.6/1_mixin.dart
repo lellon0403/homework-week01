@@ -27,3 +27,10 @@ class BoyGroup extends Idol with IdolSingMixin {
     print('저는 남자 아이돌입니다.');
   }
 }
+
+void main() {
+  BoyGroup bts = BoyGroup('BtS', 7);
+
+  // 믹스인에 정의된 sing()함수 사용 가능
+  bts.sing();
+}
