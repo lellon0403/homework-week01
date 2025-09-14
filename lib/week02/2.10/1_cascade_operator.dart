@@ -2,8 +2,9 @@ class Idol {
   final String name;
   final int membersCount;
 
+  Idol(this.name, this.membersCount);
 
-  void Idol(this.name,this.membersCount);
+  void sayName() {}
 }
 
 void main() {
