@@ -4,5 +4,13 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home: Scaffold(body: Text('Hello Code Factory'))));
+  runApp(
+    MaterialApp(
+      // 머티리얼 디자인 위젯
+      home: Scaffold(
+        //Scaffold 위젯
+        body: Text('Hello Code Factory'),
+      ),
+    ),
+  );
 }
