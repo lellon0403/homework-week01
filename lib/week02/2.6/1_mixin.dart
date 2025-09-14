@@ -29,7 +29,7 @@ class BoyGroup extends Idol with IdolSingMixin {
 }
 
 void main() {
-  BoyGroup bts = BoyGroup('BtS', 7);
+  BoyGroup bts = BoyGroup('BTS', 7);
 
   // 믹스인에 정의된 sing()함수 사용 가능
   bts.sing();
