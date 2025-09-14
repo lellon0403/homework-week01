@@ -1,4 +1,9 @@
-class Idol {}
+class Idol {
+  final String name;
+  final int membersCount;
+
+  Idol(this.name,)
+}
 
 mixin IdolSingMixin on Idol {
   void sing() {
