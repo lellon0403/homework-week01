@@ -6,11 +6,11 @@ class Cache<T> {
   Cache({required this.data});
 }
 
-void main(){
-   //T의 타입을 List<int>로 입력합니다.
-   final cache Cache<List<int>>(data:[1,2,3]);
+void main() {
+  //T의 타입을 List<int>로 입력합니다.
+  final cache = Cache<List<int>>(data: [1, 2, 3]);
 
   //제네릭에 입력된 값을 통해 data 변수의 타입이 자동으로 유추합니다.
   // 1.3.1절 reduce()함수 참고
-print(cache.data.reduce((value,element) => value + element));
+  print(cache.data.reduce((value, element) => value + element));
 }
