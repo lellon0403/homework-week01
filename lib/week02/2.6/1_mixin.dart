@@ -19,6 +19,7 @@ mixin IdolSingMixin on Idol {
   }
 }
 
+//믹스인을 적용할 때는 with 키워드 사용
 class BoyGroup extends Idol with IdolSingMixin {
   BoyGroup(super.name, super.membersCount);
 }
