@@ -4,4 +4,6 @@ void add(int x, int y) {
   print('결괏값 : ${x + y}');
 }
 
-void calculate(int x , int y, Operation oper)
+void calculate(int x, int y, Operation oper) {
+  oper(x, y);
+}
