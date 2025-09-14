@@ -20,5 +20,7 @@ class BoyGroup extends Idol() {
   //상속받은 생성자
   BoyGroup(
     String name,
-    int membersCount,)
+    int membersCount,) : super(// super는 부모 클래스를 지칭합니다.
+    name,membersCount,
+    );
 }
