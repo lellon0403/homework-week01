@@ -1,4 +1,6 @@
-class Idol {}
+class Idol {
+  void Idol(this.name,this.memberscount);
+}
 
 void main() {
   //cascade operator (...)을 사용하면
