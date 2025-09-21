@@ -23,7 +23,11 @@ class SplashScreen extends StatelessWidget {
               Image.asset(
                 'assets/logo.png',
               ),
-              CircularProgressIndicator(),
+              CircularProgressIndicator(
+                valueColor: AlwaysStoppedAnimation(
+                  Colors.white,
+                ),
+              ),
             ]
           )
         )
