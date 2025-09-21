@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         body : Center(
           child : // 여기에 예제 코드 작성하기
         ),
-        ),
+       ),
     );
   }
 }
