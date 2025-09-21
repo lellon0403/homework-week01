@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   // WebViewController의 loadRequest() 함수를 실행합니다.
   ..loadRequest(Uri.parse('https://blog.codefactory.ai')),
 
-  ..setJavaScriptMode(JavaScriptMode.unrestricted)
+  ..setJavaScriptMode(JavaScriptMode.unrestricted);
 
   HomeScreen({Key? key}) : super(key: key);
 
