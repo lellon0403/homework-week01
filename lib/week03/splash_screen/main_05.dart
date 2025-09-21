@@ -13,7 +13,7 @@ class SplashScreen extends StatelessWidget {
           decoration : BoxDecoration(
             color: Color(0xFFF99231)),
           ),
-          
+
           child: Column(
             //Text 위젯을 Image 위젯으로 변경
             children: [
