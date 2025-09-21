@@ -11,15 +11,15 @@ class SplashScreen extends StatelessWidget {
       home: Scaffold(
         body: Container(
           decoration : BoxDecoration(
-            color: Colors.orange,
+            color: Color(0xFFF99231)),
           ),
           child: Column(
             //Text 위젯을 Image 위젯으로 변경
             children: [
               Image.asset(
               'assets/logo.png',
-              CircularProgressIndicator(),
               ),
+              CircularPRogressIndicator(),
             ]
           )
         )
