@@ -10,7 +10,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body : Center(
-          child : // 여기에 예제 코드 작성하기
+          child : ElevatedButton(
+            //클릭 시 실행할 함수
+            onPressed:() {},
+            
+          )
         ),
        ),
     );
