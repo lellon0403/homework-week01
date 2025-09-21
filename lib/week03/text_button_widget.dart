@@ -10,7 +10,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body : Center(
-          child : // 여기에 예제 코드 작성하기
+          child : TextButton(
+            //클릭 시 실행
+            onPressed: () {},
+            //스타일 지정
+            style: TextButton.styleFrom(
+              // 주색상 지정
+              foregroundColor: Colors.red,
+            ),
+          )
         ),
        ),
     );
