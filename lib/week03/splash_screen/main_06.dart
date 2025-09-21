@@ -9,7 +9,24 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner : false,
-      home: Scaffold()
-    )
+      home: Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            color: Color(0xFFF99231),
+
+          ),
+          child: Column(
+            //가운데 정렬 추가
+            mainAxisAlignment: MainAxisAlignment.center,
+            Children: [
+              Image.asset(
+                'assets/logo.png',
+              ),
+              CircularProgressIndicator(),
+            ]
+          )
+        )
+      )
+    );
   }
 }
