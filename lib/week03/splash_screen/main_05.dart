@@ -19,11 +19,10 @@ class SplashScreen extends StatelessWidget {
               Image.asset(
               'assets/logo.png',
               ),
-              CircularPRogressIndicator(),
+              CircularProgressIndicator(),
             ]
           )
         )
-      )
-    );
+      );
   }
 }
