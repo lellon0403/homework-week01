@@ -4,7 +4,7 @@ void main() {
   runApp(SplashScreen());
 }
 
-class SplashScreen extends StatelessElement {
+class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp( //항상 최상단에 입력되는 위젯
