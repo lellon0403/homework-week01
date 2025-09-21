@@ -8,7 +8,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckModeManner : false,
+      debugShowCheckedModeBanner : false,
       home: Container()
     )
   }
