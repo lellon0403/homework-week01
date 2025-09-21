@@ -22,6 +22,7 @@ class SplashScreen extends StatelessWidget {
             children: [
               Image.asset(
                 'assets/logo.png',
+                width: 200,   //너비 추가
               ),
               CircularProgressIndicator(),
             ]
