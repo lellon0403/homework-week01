@@ -7,8 +7,10 @@ void main(){
   runApp(
     MaterialApp(  //머티리얼 디자인 위젯
       home: Scaffold( //Scaffold 위젯
-        body: Text(   //Text 위젯
+        body: Center(
+          child: Text(   //Text 위젯
           'Hello Code Factory', //  마지막 매개변수 끝에 콤마 추가
+        ),
         ),
       ),
     ),
