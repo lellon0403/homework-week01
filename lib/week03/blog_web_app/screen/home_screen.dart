@@ -5,7 +5,11 @@ import 'package:webview flutter/webview flutter.dart';
 
 
 class HomeScreen extends StatelessWidget {
-  WebViewController webViewController = WebViewController();
+  // WebViewController 선언
+  WebViewController webViewController = WebViewController()
+
+  // WebViewController의 loadRequest() 함수를 실행합니다.
+  ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
 
   HomeScreen({Key? key}) : super(key: key);
 
