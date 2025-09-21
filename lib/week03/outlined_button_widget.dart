@@ -17,8 +17,11 @@ class MyApp extends StatelessWidget {
             style: OutlinedButton.StyleFrom(
               foregroundColor:Colors.red,
           ),
+          //버튼에 들어갈 위젯
+          child: Text('아웃라인드 버튼'),
         ),
        ),
+    ),
     );
   }
 }
