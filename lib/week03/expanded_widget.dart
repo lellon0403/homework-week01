@@ -11,7 +11,23 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body : Center(
           child : Column(
-            chil
+            children: [
+              //파란색 Container
+              Expanded(
+                child: Container(
+                  color: Colors.blue,
+                  ),
+                  ),
+
+
+              //빨간색 Container
+              Expanded(
+                child: Container(
+                  color: Colors.red,
+
+                ),
+              )
+            ],
           )
         ),
        ),
